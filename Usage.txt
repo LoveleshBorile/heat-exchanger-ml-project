@@ -1,0 +1,4 @@
+To use the models
+Run the 254107204.py file in your command prompt or windows Run shell
+use statement "streamlit run 254107204.py"
+Streamlit dashboard allows you to input real-time sensor data and get immediate performance predictions. The app calculates the difference between the "Ideal" (Model A) and "Realistic/Noisy" (Model B) scenarios. It implements a 10% error threshold. If the models disagree by more than 10%, the app warns the user that noise or fouling is affecting the sensor data.
